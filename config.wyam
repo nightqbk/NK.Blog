@@ -2,8 +2,8 @@
 
 // Customize your settings and add new ones here
 Settings[Keys.Host] = "nightk.me";
-Settings[BlogKeys.Title] = "My Blog";
-Settings[BlogKeys.Description] = "Welcome!";
+Settings[BlogKeys.Title] = "NightK 的博客";
+Settings[BlogKeys.Description] = "NightK 的日常记录";
 Settings[BlogKeys.ArchiveExcerpts] = true;
 
 // Add any pipeline customizations here
