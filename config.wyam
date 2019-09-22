@@ -1,0 +1,9 @@
+#recipe Blog
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "nightk.me";
+Settings[BlogKeys.Title] = "My Blog";
+Settings[BlogKeys.Description] = "Welcome!";
+Settings[BlogKeys.ArchiveExcerpts] = true;
+
+// Add any pipeline customizations here
