@@ -1,12 +1,5 @@
-@model IEnumerable<string>
-<div>
-
-    @foreach(var image in Model)   
-    { 
-      <figure class="absolute-bg preview__img" style="background-image: url('@image');"></figure>
-    }
-    <div class="previews__container">
-      @if(Context.String(BlogKeys.Description) != null)
+<div class="site-heading">
+    @if(Context.String(BlogKeys.Description) != null)
     {
         <h1>@Context.String(BlogKeys.Description)</h1>
     }
@@ -18,5 +11,4 @@
         }
         <span class="subheading">@Context.String(BlogKeys.Intro)</span>
     }
-    </div>
-  </div>
+</div>
