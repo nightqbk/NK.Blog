@@ -1,6 +1,6 @@
 Title: 将Nginx封装为Windows服务并自启动
 Published: 2/9/2019
-Tags: nginx
+Tags: Nginx
 ---
 > 项目地址： 
 https://github.com/kohsuke/winsw
