@@ -5,5 +5,7 @@ Settings[Keys.Host] = "nightk.me";
 Settings[BlogKeys.Title] = "NightK 的博客";
 Settings[BlogKeys.Description] = "NightK 的日常记录";
 Settings[BlogKeys.ArchiveExcerpts] = true;
+Settings[BlogKeys.IndexPageSize] = 8;
+Settings[BlogKeys.IndexPaging] = true;
 
 // Add any pipeline customizations here

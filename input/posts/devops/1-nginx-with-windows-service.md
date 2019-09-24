@@ -18,10 +18,10 @@ http://repo.jenkins-ci.org/releases/com/sun/winsw/winsw
 
 ### 图示
 #### Windows 服务
-![windows service](./images/nginx-with-windows-service/windowsservice.png)
+![windows service](./images/1-windowsservice.png)
 
 #### 文件结构格式如下
-![windows service](./images/nginx-with-windows-service/filestruct.png)
+![windows service](./images/1-filestruct.png)
 
 ### 配置内容
 #### nginx-service.xml 内容如下
