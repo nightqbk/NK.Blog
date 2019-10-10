@@ -1,4 +1,4 @@
-Title: 在CentOS中安装 Redis
+Title: 在CentOS中安装并配置 Redis
 Published: 2019-09-23
 Tags: ["Redis","CentOS","Linux"]
 ---
@@ -30,8 +30,20 @@ make install PREFIX=/root/my_apps/redis
 cp redis-5.0.5/redis.conf ./redis
 ```
 
-#### 6. 修改配置文件，后台运行
+#### 6. 修改配置文件
 把daemonize no 改成 daemonize yes
+> 表示后台运行
+
+bind:
+```
+bind 127.0.0.1 192.168.1.13
+#bind 127.0.0.1 192.168.1.13
+注释掉之后，会允许所有的连接到redis server
+```
+protected-mode no
+> 默认时yes， 当设置成no的时候，不会要求验证，完全开放
+
+
 
 #### 7. 常用命令
 启动：
@@ -40,6 +52,12 @@ cp redis-5.0.5/redis.conf ./redis
 ```
 连接到redis的命令
 ```
+
+停止:
+```
+./bin/redis-cli showdown
+```
+
 # 连接到本机的redis 服务
 ./bin/redis-cli 
 
@@ -47,12 +65,12 @@ cp redis-5.0.5/redis.conf ./redis
 ./redis-cli -h 127.0.0.1 -p 6379
 ```
 #### 8. 其他命令说明
-Redis-server 启动服务
-Redis-cli 访问到redis的控制台
-redis-benchmark 性能测试的工具
-redis-check-aof aof文件进行检测的工具
-redis-check-dump  rdb文件检查工具
-redis-sentinel  sentinel 服务器配置
+- Redis-server 启动服务
+- Redis-cli 访问到redis的控制台
+- redis-benchmark 性能测试的工具
+- redis-check-aof aof文件进行检测的工具
+- redis-check-dump  rdb文件检查工具
+- redis-sentinel  sentinel 服务器配置
 
 
 
