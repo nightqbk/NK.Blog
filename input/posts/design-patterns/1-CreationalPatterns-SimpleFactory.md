@@ -1,14 +1,14 @@
 Title: CreationalPattern - SimpleFactory Pattern
 Published: 2019-10-11
-
-## Tags: ["DesignPattern","CreationalPattern "]
+Tags: ["Design Pattern","Creational Pattern "]
+---
 
 ### 类图
 
-![class diagram](./images/1-1.png)
+![class diagram](../../assets/images/design-patterns/1-1.png)
 
 ### 顺序图
-![secquence diagram](./images/1-2.png)
+![secquence diagram](../../assets/images/design-patterns/1-2.png)
 
 ### 示例代码
 

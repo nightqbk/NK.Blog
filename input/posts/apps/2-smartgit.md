@@ -7,4 +7,4 @@ SmartGit 常见问题汇总
 #### step1 到SmartGit配置文件目录
 >  %APPDATA%\syntevo\SmartGit
 #### step2 删除setting 文件
-![settingfiles](./img/2-1.png)
+![settingfiles](../../assets/images/apps/2-1.png)
