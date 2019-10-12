@@ -1,16 +1,19 @@
-Title: CreationalPattern - SimpleFactory Pattern
+Title: 创建形 - 简单工厂模式 - SimpleFactory
 Published: 2019-10-11
 Tags: ["Design Pattern","Creational Pattern "]
 ---
+### 定义
+提供一个创建对象实例的功能，而无需关心其具体的实现。被创建的实例的类型可以是接口、抽象类、也可以是具体的类
 
 ### 类图
 
 ![class diagram](../../assets/images/design-patterns/1-1.png)
 
 ### 顺序图
-![secquence diagram](../../assets/images/design-patterns/1-2.png)
+![sequence diagram](../../assets/images/design-patterns/1-2.png)
 
 ### 示例代码
+GitHub: [SimpleFactory](https://github.com/nightqbk/NK.DesignPattern/tree/master/NK.CreationalPatterns/NK.CreationalPatterns.SimpleFactory)
 
 ### 分析
 
