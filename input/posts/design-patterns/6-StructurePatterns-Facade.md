@@ -7,7 +7,7 @@ Tags: ["Design Pattern","Creational Pattern "]
 为子系统中的一组接口提供一个一致的界面，Facade 模式定义了一个高层接口，这个接口使得这一子系统更加容易使用
 
 ### 示例代码
-GitHub: [Facade](https://github.com/nightqbk/NK.DesignPattern/tree/master/NK.StructurePatterns/NK.StructurePatterns.Facade)
+GitHub: [Facade](https://github.com/nightqbk/NK.DesignPattern/tree/master/NK.StructuralPatterns/NK.StructuralPatterns.Facade)
 
 ### 结构图
 ![Structure diagram](../../assets/images/design-patterns/6-1.png)
