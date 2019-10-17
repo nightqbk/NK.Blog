@@ -1,4 +1,4 @@
-Title: 创建形 - 单例 - Singleton
+Title: 创建型 - 单例 - Singleton
 Published: 2019-10-14
 
 Tags: ["Design Pattern","Creational Pattern "]

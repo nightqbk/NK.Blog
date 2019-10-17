@@ -1,4 +1,4 @@
-Title: 创建形 - 生成器模式 - Builder
+Title: 创建型 - 生成器模式 - Builder
 Published: 2019-10-16
 
 Tags: ["Design Pattern","Creational Pattern "]

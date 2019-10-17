@@ -1,4 +1,4 @@
-Title: 创建形 - 抽象工厂 - AbstractFactory
+Title: 创建型 - 抽象工厂 - AbstractFactory
 Published: 2019-10-12
 
 Tags: ["Design Pattern","Creational Pattern "]

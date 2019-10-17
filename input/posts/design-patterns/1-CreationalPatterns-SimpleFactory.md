@@ -1,4 +1,4 @@
-Title: 创建形 - 简单工厂模式 - SimpleFactory
+Title: 创建型 - 简单工厂模式 - SimpleFactory
 Published: 2019-10-11
 Tags: ["Design Pattern","Creational Pattern "]
 ---

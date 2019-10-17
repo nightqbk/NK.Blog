@@ -1,4 +1,4 @@
-Title: 创建形 - 工厂方法 - FactoryMethod
+Title: 创建型 - 工厂方法 - FactoryMethod
 Published: 2019-10-12
 
 Tags: ["Design Pattern","Creational Pattern "]
