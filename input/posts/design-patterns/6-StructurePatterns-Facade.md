@@ -1,7 +1,7 @@
 Title: 结构型 - 外观模式 - Facade
 Published: 2019-10-17
 
-Tags: ["Design Pattern","Creational Pattern "]
+Tags: ["Design Pattern","Structural Pattern "]
 ---
 ### 定义
 为子系统中的一组接口提供一个一致的界面，Facade 模式定义了一个高层接口，这个接口使得这一子系统更加容易使用
